@@ -63,7 +63,7 @@ const createCar = asyncHandler(async (req, res) => {
         stock:req.body.stock,
         features:req.body.features,
         mileage:req.body.mileage,
-        price:req.body.price,
+        price:req.body.price, 
         category: req.body.category,
         description: req.body.description,
         public_id: result.public_id,

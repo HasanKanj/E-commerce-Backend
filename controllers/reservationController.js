@@ -1,7 +1,6 @@
 import Reservation from "../models/reservationModel.js";
 import Cars from "../models/carsModel.js";
 import User from "../models/userModel.js";
-import jwt from "jsonwebtoken";
 
 // Create a new reservation
 const createReservation = async (req, res) => {

@@ -18,7 +18,7 @@ const carSchema = new Schema(
       required: true,
     },
     reservation_id: [
-      { type: Schema.Types.ObjectId, ref: 'Reservation', required: true },
+      { type: Schema.Types.ObjectId, ref: 'Reservation' },
     ],
 
     mileage: {
