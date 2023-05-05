@@ -15,7 +15,10 @@ import { authenticateToken } from '../middleware/authMiddleware.js';
 router.post('/',authenticateToken, createReservation);
 
 // Get all reservations
-router.get('/',authenticateToken,isAdmin, getAllReservations);
+router.get('/',
+// authenticateToken,
+// isAdmin,
+ getAllReservations);
 
 // Get a reservation by ID
 router.get('/:id',authenticateToken,isAdmin, getReservationById);
