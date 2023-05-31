@@ -1,8 +1,5 @@
 import Contact from '../models/contactModel.js';
 
-
-  
-  
 export const createContact = async (req, res) => {
     try {
       console.log(req.body); // add this line to log the request body
@@ -18,8 +15,6 @@ export const createContact = async (req, res) => {
       res.status(500).json({ error: 'Server error' });
     }
   };
-
-
   
   
 
